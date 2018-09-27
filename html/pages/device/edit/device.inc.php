@@ -143,7 +143,7 @@ if ($updated && $update_message) {
                         echo(' selected="1"');
                         $unknown = 0;
                     }
-                    echo(' >' . ucfirst($type['type']) . '</option>');
+                    echo(' >' . $type['text']) . '</option>');
                 }
                 if ($unknown) {
                     echo('          <option value="other">Other</option>');
